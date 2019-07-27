@@ -9,6 +9,7 @@ import colors from "../config/colors"; // 1.0.0-beta.27
 import { Header, SearchBar } from "react-native-elements";
 
 import NavigationBar from "../components/NavigationBar";
+import Search from "../components/Search";
 
 class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -18,28 +19,17 @@ class HomeScreen extends React.Component {
     };
   };
 
-  state = {
-    search: ""
-  };
+  state = {};
 
   handleButtonPress = () => {
     this.props.navigation.navigate("LoginScreen");
-  };
-
-  updateSearch = search => {
-    this.setState({ search });
   };
 
   render() {
     return (
       <View style={styles.container}>
         <NavigationBar />
-        <SearchBar
-          lightTheme
-          onChangeText={this.updateSearch}
-          icon={{ type: "font-awesome", name: "search" }}
-          placeholder="Type Here..."
-        />
+
         <View style={{ flex: 1 }}>
           <Button
             style={{ flex: 3, backgroundColor: "steelblue" }}
@@ -47,15 +37,6 @@ class HomeScreen extends React.Component {
           />
         </View>
 
-        <Text
-          style={{
-            textAlign: "center",
-            fontSize: 50,
-            margin: 20
-          }}
-        >
-          HomeScreen
-        </Text>
         <Button title="go to another screen" onPress={this.handleButtonPress} />
       </View>
     );

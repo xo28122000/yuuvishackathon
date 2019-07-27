@@ -134,8 +134,9 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "center"
   },
-  recordButton: {
-    minHeight: 500
+  inputSearch: {
+    backgroundColor: "rgba(0,0,0,0.4)", // 40% opaque
+    color: "white"
   }
 });
 

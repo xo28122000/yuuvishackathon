@@ -1,10 +1,10 @@
 import React from "react";
 
 import styles from "../config/styles";
-import { View, Text } from "react-native";
+import { View, Text, TextInput } from "react-native";
 // import { BlueButton, InverseButton } from "../components/Button";
 import colors from "../config/colors"; // 1.0.0-beta.27
-import { Button, Input } from "react-native-elements";
+import { Button } from "react-native-elements";
 
 class LoginScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -30,11 +30,12 @@ class LoginScreen extends React.Component {
         >
           Login
         </Text>
-        <Input
+        <TextInput
           placeholder="Email"
           leftIcon={{ type: "font-awesome", name: "chevron-left" }}
         />
-        <Input
+        <TextInput
+          style={{ height: "30%" }}
           placeholder="Password"
           leftIcon={{ type: "font-awesome", name: "chevron-left" }}
         />

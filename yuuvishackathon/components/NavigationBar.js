@@ -14,6 +14,7 @@ class NavigationBar extends React.Component {
         <Header
           placement="left"
           leftComponent={{ icon: "menu", color: "#fff" }}
+          centerComponent={<Search/>}
           rightComponent={{ icon: "account-circle", color: "#fff" }}
         />
       </View>
