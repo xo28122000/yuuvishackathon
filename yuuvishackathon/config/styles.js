@@ -133,6 +133,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flexDirection: "column",
     justifyContent: "center"
+  },
+  recordButton: {
+    minHeight: 500
   }
 });
 
