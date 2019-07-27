@@ -7,8 +7,7 @@ import colors from "../config/colors"; // 1.0.0-beta.27
 // import { getUserGroup, getGroups } from "../requests";
 // import { Video } from "expo-av";
 import { Button } from "react-native-elements";
-
-class HomeScreen extends React.Component {
+class LoginScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       header: () => null
@@ -29,11 +28,11 @@ class HomeScreen extends React.Component {
             margin: 20
           }}
         >
-          HomeScreen
+          LoginScreen
         </Text>
-        <Button title="go to another screen" onPress={this.handleButtonPress} />
+      
       </View>
     );
   }
 }
-export default HomeScreen;
+export default LoginScreen;
