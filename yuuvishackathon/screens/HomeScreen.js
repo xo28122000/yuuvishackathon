@@ -6,7 +6,7 @@ import { View, Text } from "react-native";
 import colors from "../config/colors"; // 1.0.0-beta.27
 // import { getUserGroup, getGroups } from "../requests";
 // import { Video } from "expo-av";
-import { Button } from "react-native-elements";
+import { Button, Header } from "react-native-elements";
 
 class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -22,6 +22,7 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Header />
         <Text
           style={{
             textAlign: "center",
