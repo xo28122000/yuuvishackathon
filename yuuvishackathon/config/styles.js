@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.WHITE,
     alignItems: "center",
-    justifyContent: "space-between"
+    justifyContent: "center"
   },
   clickable: {
     width: "100%",
@@ -71,12 +71,25 @@ const styles = StyleSheet.create({
   },
   buttonStyleContainer: {
     width: "100%",
+    height: "20%",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: colors.LIGHT_BLUE,
+    marginBottom: 40,
+
+    paddingVertical: 12,
+    borderRadius: 50,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "rgba(255,255,255,0.7)"
+  },
+  buttonStyleCircular: {
+    width: "50%",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: colors.LIGHT_BLUE,
     marginBottom: 12,
     paddingVertical: 12,
-    borderRadius: 10,
+    borderRadius: 50,
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: "rgba(255,255,255,0.7)"
   },
@@ -87,6 +100,7 @@ const styles = StyleSheet.create({
   },
   blueButtonStyleContainer: {
     width: "30%",
+    height: "40px",
     alignItems: "center",
     flexDirection: "row-reverse",
     justifyContent: "flex-start",

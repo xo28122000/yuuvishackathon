@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2619B4E8-C3EF-4992-A09D-09F39158925F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2619B4E8-C3EF-4992-A09D-09F39158925F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RNAudio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RNAudio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project RNAudio with scheme RNAudio and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>585969490.77719605</real>
+			<key>timeStoppedRecording</key>
+			<real>585969492.70637</real>
+			<key>title</key>
+			<string>Building project RNAudio with scheme RNAudio and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2619B4E8-C3EF-4992-A09D-09F39158925F</string>
+		</dict>
+		<key>97BB26F2-C35B-454C-B78D-549968D3A5BB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>97BB26F2-C35B-454C-B78D-549968D3A5BB.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RNAudio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RNAudio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project RNAudio with scheme RNAudio and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>585969447.35925996</real>
+			<key>timeStoppedRecording</key>
+			<real>585969460.08170199</real>
+			<key>title</key>
+			<string>Building project RNAudio with scheme RNAudio and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>97BB26F2-C35B-454C-B78D-549968D3A5BB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
