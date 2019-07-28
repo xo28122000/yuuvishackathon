@@ -23,6 +23,7 @@ class IdeaCardRender extends Component {
     console.log(this.state.overlay);
     // this.setState({ selectedIndex });
   };
+  donothing = () => {};
   closeoverlay = () => {
     this.setState({ overlay: false });
     console.log(this.state.overlay);
@@ -38,6 +39,26 @@ class IdeaCardRender extends Component {
         title={tagdetail.name}
       >
         <Text> {tagdetail.info}</Text>
+
+        {/* <ButtonGroup
+          onPress={this.donothing}
+          // selectedIndex={selectedIndex}
+          buttons={[
+            <Icon
+              name="pause"
+              type="font-awesome"
+              color="#f50"
+              style={{ paddingleft: 10, flex: 1 }}
+            />,
+            <Icon
+              name="play"
+              type="font-awesome"
+              color="#f50"
+              style={{ paddingleft: 10, flex: 1 }}
+            />
+          ]}
+          containerStyle={{ height: 100 }}
+        /> */}
       </Card>
     ));
     return (

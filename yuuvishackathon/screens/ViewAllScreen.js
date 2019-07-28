@@ -27,17 +27,20 @@ class ViewAllScreen extends React.Component {
         title: "Saturday",
         tags: ["Carrier Pigeons", "Drone Delivery System"],
         tagsdetail: [
-          { name: "Carrier Pigeons", info: "New Sound Regulations" },
-          { name: "Drone Delivery System", info: "New Sound Regulations" }
+          { name: "Carrier Pigeons", info: "New Sound Regulations - Quiet" },
+          {
+            name: "Drone Delivery System",
+            info: "New Sound Regulations - Noisy"
+          }
         ]
       },
       {
         title: "Friday",
         tags: ["Zoo", "Lion", "Tickets"],
         tagsdetail: [
-          { name: "Zoo", info: "some info abt Zoo" },
-          { name: "Lion", info: "some info abt Lion" },
-          { name: "Tickets", info: "some info abt Tickets" }
+          { name: "Zoo", info: "SF Zoo - L Muni" },
+          { name: "Lion", info: "Save - Endangered" },
+          { name: "Tickets", info: "Weekends - discount" }
         ]
       },
       {
