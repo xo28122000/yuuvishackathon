@@ -14,9 +14,6 @@ from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 from base64 import urlsafe_b64decode
 from collections import Counter
-from AL_utils import read_text_file, output_dir_num, remove_duplicates 
-from AL_web import html_to_text, url_to_html, init_dataframe, get_domain_text_packets
-from AL_train import df_to_json
 
 # This file is used to test the pretrained BERT, by generating predictions
 # on a few websites stored in test_urls.txt. This file should contain urls
